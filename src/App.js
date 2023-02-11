@@ -1,23 +1,60 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
 
+const padsConfig = [
+  {
+    display: "Heater 1",
+    key: "Q",
+    src: "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"
+  },
+  {
+    display: "Heater 2",
+    key: "W",
+    src: "https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3"
+  },
+  {
+    display: "Heater 3",
+    key: "E",
+    src: "https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3"
+  },
+  {
+    display: "Heater 4",
+    key: "A",
+    src: "https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3"
+  },
+  {
+    display: "Clap",
+    key: "S",
+    src: "https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3"
+  },
+  {
+    display: "Open-HH",
+    key: "D",
+    src: "https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3"
+  },
+  {
+    display: "Kick-n'-hat",
+    key: "Z",
+    src: "https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3"
+  },
+  {
+    display: "Kick",
+    key: "X",
+    src: "https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3"
+  },
+  {
+    display: "Closed-HH",
+    key: "C",
+    src: "https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"
+  }
+]
+ 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id='drum-machine'>
+      
     </div>
   );
 }
