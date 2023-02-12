@@ -1,0 +1,11 @@
+.drum-pad{
+    color: black;
+    background-color:var(--main-gray);
+    box-shadow: 5px 3px 3px black;
+    border-radius: 10%;
+    width: 75px;
+    height: 75px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 25px;
+}
